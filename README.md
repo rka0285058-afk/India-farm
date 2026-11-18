@@ -11,6 +11,7 @@ Agriculture employs over 40% of India's workers but contributes only about 16% o
 | `agri_model_results.json` | Headline results. |
 | `agri_model_tables.csv` | Sensitivity grid, land classes, income by class, reallocation scenarios. |
 | `agri_model_charts.png` | Six-panel summary chart. |
+| `POLICY.md` | Policy guidelines tied to the model's findings. |
 
 ## Findings
 
