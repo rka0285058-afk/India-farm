@@ -1,0 +1,32 @@
+# sensitivity_nonagri_to_agri_ratio
+,Emp 40%,Emp 41%,Emp 42%,Emp 43.0%,Emp 44.8%,Emp 45%
+GVA 15%,3.78,3.94,4.1,4.27,4.6,4.64
+GVA 16%,3.5,3.65,3.8,3.96,4.26,4.3
+GVA 17%,3.25,3.39,3.54,3.68,3.96,3.99
+GVA 18%,3.04,3.17,3.3,3.44,3.7,3.73
+
+# land_classes
+,class,holdings_thousand,share_holdings_pct,share_area_pct,avg_size_ha
+0,Marginal (<1 ha),100251.0,68.45,24.0,0.38
+1,Small (1-2 ha),25809.0,17.62,23.34,1.43
+2,Semi-medium (2-4 ha),13993.0,9.55,23.65,2.67
+3,Medium (4-10 ha),5561.0,3.8,19.96,5.68
+4,Large (>10 ha),838.0,0.57,9.07,17.12
+
+# income_by_class
+,class,holdings_thousand,share_holdings_pct,share_area_pct,avg_size_ha,income_month_base,income_month_minus10,income_month_minus20,income_month_minus20_wages_hit,wage_dependence_pct
+0,Marginal (<1 ha),100251.0,68.0,24.0,0.0,5648.0,5503.0,5358.0,4545.0,72.0
+1,Small (1-2 ha),25809.0,18.0,23.0,1.0,9679.0,9131.0,8583.0,7770.0,42.0
+2,Semi-medium (2-4 ha),13993.0,10.0,24.0,3.0,14442.0,13418.0,12393.0,11581.0,28.0
+3,Medium (4-10 ha),5561.0,4.0,20.0,6.0,25955.0,23779.0,21603.0,20791.0,16.0
+4,Large (>10 ha),838.0,1.0,9.0,17.0,69807.0,63246.0,56685.0,55873.0,6.0
+
+# reallocation
+,shift_pp,phi,gdp_gain_pct_surplus_labour,gdp_gain_pct_no_surplus
+0,3,0.5,2.2,1.1
+1,3,1.0,4.4,3.3
+2,5,0.5,3.7,1.8
+3,5,1.0,7.4,5.5
+4,10,0.5,7.4,3.6
+5,10,1.0,14.7,11.0
+

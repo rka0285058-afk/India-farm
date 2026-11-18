@@ -1,0 +1,60 @@
+{
+  "A_baseline": {
+    "agri_emp_share_pct": 43.0,
+    "agri_gva_share_pct": 16.0,
+    "agri_productivity_rel_to_economy": 0.372,
+    "nonagri_productivity_rel_to_economy": 1.474,
+    "nonagri_to_agri_productivity_ratio": 3.96,
+    "agri_workers_crore": 26.5
+  },
+  "A_sensitivity_ratio_range": [
+    3.04,
+    4.64
+  ],
+  "B_land": {
+    "total_operated_area_mha": 158.2,
+    "gini_between_class_lower_bound": 0.525,
+    "small_marginal_holdings_pct": 86.1,
+    "small_marginal_area_pct": 47.3,
+    "large_to_marginal_avg_size_ratio": 45.2,
+    "avg_size_by_class_ha": {
+      "Marginal (<1 ha)": 0.38,
+      "Small (1-2 ha)": 1.43,
+      "Semi-medium (2-4 ha)": 2.67,
+      "Medium (4-10 ha)": 5.68,
+      "Large (>10 ha)": 17.12
+    }
+  },
+  "C_calibration": {
+    "wage_share_of_income_pct": 48.7,
+    "land_linked_income_per_ha_year_rs": 46000,
+    "debt_to_annual_income": 0.74
+  },
+  "C_class_income_month": {
+    "Marginal (<1 ha)": 5648,
+    "Small (1-2 ha)": 9679,
+    "Semi-medium (2-4 ha)": 14442,
+    "Medium (4-10 ha)": 25955,
+    "Large (>10 ha)": 69807
+  },
+  "C_climate_stress": {
+    "avg_holding_income_drop_pct_minus10": 5.0,
+    "avg_holding_income_drop_pct_minus20": 9.9,
+    "marginal_income_drop_pct_minus20_wages_unaffected": 5.1,
+    "marginal_income_drop_pct_minus20_wages_also_hit": 19.5,
+    "note": "Shock sizes are ASSUMPTIONS (scenario analysis), not observed data."
+  },
+  "C_parity": {
+    "target_income_month_rs": 33019,
+    "land_needed_ha": 7.5,
+    "multiple_of_avg_holding": 7.0,
+    "pct_holdings_at_or_above_4ha": 4.4,
+    "nabard_threshold_ha": 1.65,
+    "pct_holdings_below_threshold_approx": 79.9
+  },
+  "verdict": {
+    "workforce_gt_40pct": true,
+    "gva_share_about_16pct_in_official_range": true,
+    "productivity_gap_holds_across_all_combinations": true
+  }
+}
